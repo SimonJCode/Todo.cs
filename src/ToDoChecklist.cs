@@ -21,10 +21,6 @@ namespace src
             todoId = ID;
         }
 
-        public override void addTodo(ToDo i)
-        {
-            
-        }
     }
 
 }

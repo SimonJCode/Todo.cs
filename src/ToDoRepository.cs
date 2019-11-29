@@ -10,7 +10,7 @@ namespace src
         public List<ToDo> todolist = new List<ToDo>();
         public List<ToDo> inactiveTodoList = new List<ToDo>();
         UI ui = new UI();
-        int idCount = 1;
+        int idCount = 1;            //Used to give ToDo an ID
 
         public void PrintToDo(){
             Console.Clear();

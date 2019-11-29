@@ -5,13 +5,6 @@ namespace src
 {
     public abstract class ToDo
     {
-
-        public List<ToDo> todolist = new List<ToDo>();
-        
-
-        public abstract void addTodo(ToDo i);   
-
-        
         
         public int todoId{ get; set; }
         public string name{ get; set; }
